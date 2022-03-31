@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# update next.config.js dengan mongoDB koneksi string anda
+
+module.exports = {
+    env: {
+        MONGO_URI: "Your connection string"
+    }
+}
+
 ## Getting Started
 
 First, run the development server:
