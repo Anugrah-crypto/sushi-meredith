@@ -7,7 +7,7 @@ module.exports = {
         MONGO_URI: "Your connection string"
     }
 }
-#Start Local Development
+# Start Local Development
 Gunakan perintah:
 npm run dev
 untuk memulai local development servernya
